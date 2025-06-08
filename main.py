@@ -2,7 +2,7 @@ from astrapy import DataAPIClient
 import uuid
 
 # Conectando ao AstraDB via REST API
-client = DataAPIClient("AstraCS:GpQOlsczWoFQDDDEvxSNKfwd:6ecfbd6f45c079a0130688c1fc3ec8da067d99f3ca2a570f7e0d67da57d5a460")
+client = DataAPIClient("SUA_SENHA_ASTRADB")
 db = client.get_database_by_api_endpoint("https://e8961dbc-c149-44ca-8c01-3ead80708cce-us-east1.apps.astra.datastax.com")
 
 usuarios = db["usuarios"]
